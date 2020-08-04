@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+Author: Shah Emran
+Date:  12/04/19
+Currency Converter Assignment
+-->
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title>Currency Converter</title>
+    <link href="css/currency.css" rel="stylesheet" />
+</head>
+<body>
+    
+        <h1>Currency Conversion</h1>
+        <img src="images/usa.png" height="150" width="250" alt="USA" />
+        
+        <img id="flag2" src="images/euro.png" height="150" width="250" alt="Euro" />
+        
+        <h2>Enter USD and enter desired country</h2>
+        
+        <label>U.S Dollars (USD):
+        <input type="text" id="usd" />
+        </label>
+        <br>
+        <br>
+        
+        <label>Enter Country(CANADA, Europe, JAPAN):
+            <select id="country">
+                <option>Select Country</option>
+                <option>CANADA</option>
+                <option>JAPAN</option>
+                <option>EUROPE</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        
+        <label>To Currency():
+        <input type="text" id="money" readonly />
+        </label>
+        <br>
+        <br>
+        
+        <button id="convert">Convert</button>
+        
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="scripts/currency.js"></script>
+    
+</body>
+</html>

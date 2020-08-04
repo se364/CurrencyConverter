@@ -1,0 +1,15 @@
+img {
+    height: 180px;
+    border: 2px solid black;
+}
+
+body{
+    background-color: #5F9EA0;
+}
+
+button{
+    
+    margin-bottom: 2em;
+    background: #4db36e;
+}
+
